@@ -1,0 +1,27 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "alegrify-static-site build",
+    "watch": "alegrify-static-site watch",
+    "dev": "alegrify-static-site dev",
+    "lint": "alegrify-static-site lint",
+    "lint:fix": "alegrify-static-site lint fix"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "alegrify-static-site": "^1.0.50"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-alegrify-ui": "1.0.19",
+    "react-dom": "16.13.1"
+  }
+}
