@@ -12,6 +12,7 @@ const {
   Dt,
   Dd,
   Notification,
+  Stepper,
 } = require("react-alegrify-ui");
 
 const Head = require("../../components/lib/head");
@@ -58,6 +59,10 @@ function Index() {
         </div>
 
         <Main spaceXL>
+          <Stepper
+            steps={["Phase 0", "Phase 1", "Phase 2", "Phase 3", "Phase 4"]}
+            progress={20}
+          />
           <H2 textStart spaceL>
             Frequently Asked Questions
           </H2>
@@ -109,7 +114,8 @@ function Index() {
               <Dl>
                 <Dt>Can I meet with my friends?</Dt>
                 <Dd>
-                  No, that is not allowed at this time. Unless of course it is a virtual meeting.
+                  No, that is not allowed at this time. Unless of course it is a
+                  virtual meeting.
                 </Dd>
               </Dl>
             </Section>
