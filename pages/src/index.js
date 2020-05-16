@@ -103,6 +103,16 @@ function Index() {
                 </Dd>
               </Dl>
             </Section>
+
+            <H3 textStart>Social</H3>
+            <Section>
+              <Dl>
+                <Dt>Can I meet with my friends?</Dt>
+                <Dd>
+                  No, that is not allowed at this time. Unless of course it is a virtual meeting.
+                </Dd>
+              </Dl>
+            </Section>
           </Article>
 
           <Notification info title="About this page">

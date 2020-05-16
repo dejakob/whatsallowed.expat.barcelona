@@ -8,7 +8,8 @@
     "watch": "alegrify-static-site watch",
     "dev": "alegrify-static-site dev",
     "lint": "alegrify-static-site lint",
-    "lint:fix": "alegrify-static-site lint fix"
+    "lint:fix": "alegrify-static-site lint fix",
+    "upload": "alegrify-static-site upload"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -17,7 +18,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "alegrify-static-site": "^1.0.50"
+    "alegrify-static-site": "1.0.54"
   },
   "dependencies": {
     "react": "16.13.1",
