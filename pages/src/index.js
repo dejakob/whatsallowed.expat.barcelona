@@ -70,17 +70,17 @@ function Index() {
           <Article spaceXL>
             <H3 textStart>Changes effective on May 18th (Phase 0.5)</H3>
             <ul className="alegrify-ul">
-              <li className="alegrify-li">Funerals will be allowed for up to 10 people</li>
-              <li className="alegrify-li">
+              <li className="alegrify-ul__li">Funerals will be allowed for up to 10 people</li>
+              <li className="alegrify-ul__li">
                 More shops will open and reservation won&acute;t be needed
               </li>
-              <li className="alegrify-li">
+              <li className="alegrify-ul__li">
                 Social services will start to reopen
               </li>
-              <li className="alegrify-li">
+              <li className="alegrify-ul__li">
                 Some musea, cultural and scientific centers will open, but for a limited amount of visitors
               </li>
-              <li className="alegrify-li">
+              <li className="alegrify-ul__li">
                 Regligious activities, but with limited capacity (1/3rd)
               </li>
             </ul>
