@@ -13,6 +13,8 @@ const {
   Dd,
   Notification,
   Stepper,
+  Ul,
+  Li,
 } = require("react-alegrify-ui");
 
 const Head = require("../../components/lib/head");
@@ -63,6 +65,29 @@ function Index() {
             steps={["Phase 0", "Phase 1", "Phase 2", "Phase 3", "Phase 4"]}
             progress={20}
           />
+
+          <H2 textStart spaceL>
+            Latest updates
+          </H2>
+          <Article spaceXL>
+            <H3 textStart>Changes effective on May 18th (Phase 0.5)</H3>
+            <Ul>
+              <Li>Funerals will be allowed for up to 10 people</Li>
+              <Li>
+                More shops will open and reservation won&acute;t be needed
+              </Li>
+              <Li>
+                Social services will start to reopen
+              </Li>
+              <Li>
+                Some musea, cultural and scientific centers will open, but for a limited amount of visitors
+              </Li>
+              <Li>
+                Regligious activities, but with limited capacity (1/3rd)
+              </Li>
+            </Ul>
+          </Article>
+
           <H2 textStart spaceL>
             Frequently Asked Questions
           </H2>
