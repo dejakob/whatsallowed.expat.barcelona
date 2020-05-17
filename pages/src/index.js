@@ -68,6 +68,8 @@ function Index() {
             Latest updates
           </H2>
           <Article spaceXL>
+            <H3 textStart>Update May 17th, 2020</H3>
+            <P spaceL>Face masks will be mandatory when you go outside</P>
             <H3 textStart>Changes effective on May 18th (Phase 0.5)</H3>
             <ul className="alegrify-ul">
               <li className="alegrify-ul__li">Funerals will be allowed for up to 10 people</li>
