@@ -69,10 +69,25 @@ function Index() {
           </H2>
           <Article spaceXL>
             <H3 textStart>Update May 17th, 2020</H3>
-            <P spaceL>Face masks will be mandatory when you go outside</P>
+            <P spaceL>
+              According to{" "}
+              <a
+                href="https://www.lavanguardia.com/vida/20200517/481215986115/coronavirus-gobierno-aprobara-uso-obligatorio-mascarilla-lugares-publicos.html"
+                title="Article regarding facemasks"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="alegrify-a"
+              >
+                La Vanguardia
+              </a>
+              , face masks will be mandatory when you go outside.
+              If you don&acute;t have a face mask, you can get one for free at the pharmacy, when you show your blue card (of the public health insurance).
+            </P>
             <H3 textStart>Changes effective on May 18th (Phase 0.5)</H3>
             <ul className="alegrify-ul">
-              <li className="alegrify-ul__li">Funerals will be allowed for up to 10 people</li>
+              <li className="alegrify-ul__li">
+                Funerals will be allowed for up to 10 people
+              </li>
               <li className="alegrify-ul__li">
                 More shops will open and reservation won&acute;t be needed
               </li>
@@ -80,7 +95,8 @@ function Index() {
                 Social services will start to reopen
               </li>
               <li className="alegrify-ul__li">
-                Some musea, cultural and scientific centers will open, but for a limited amount of visitors
+                Some musea, cultural and scientific centers will open, but for a
+                limited amount of visitors
               </li>
               <li className="alegrify-ul__li">
                 Regligious activities, but with limited capacity (1/3rd)
