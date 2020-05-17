@@ -13,8 +13,6 @@ const {
   Dd,
   Notification,
   Stepper,
-  Ul,
-  Li,
 } = require("react-alegrify-ui");
 
 const Head = require("../../components/lib/head");
@@ -71,21 +69,21 @@ function Index() {
           </H2>
           <Article spaceXL>
             <H3 textStart>Changes effective on May 18th (Phase 0.5)</H3>
-            <Ul>
-              <Li>Funerals will be allowed for up to 10 people</Li>
-              <Li>
+            <ul className="alegrify-ul">
+              <li className="alegrify-li">Funerals will be allowed for up to 10 people</li>
+              <li className="alegrify-li">
                 More shops will open and reservation won&acute;t be needed
-              </Li>
-              <Li>
+              </li>
+              <li className="alegrify-li">
                 Social services will start to reopen
-              </Li>
-              <Li>
+              </li>
+              <li className="alegrify-li">
                 Some musea, cultural and scientific centers will open, but for a limited amount of visitors
-              </Li>
-              <Li>
+              </li>
+              <li className="alegrify-li">
                 Regligious activities, but with limited capacity (1/3rd)
-              </Li>
-            </Ul>
+              </li>
+            </ul>
           </Article>
 
           <H2 textStart spaceL>
