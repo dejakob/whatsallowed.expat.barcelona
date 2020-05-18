@@ -71,6 +71,17 @@ function PageFooter() {
                     Contact
                   </a>
                 </div>
+                <div className="alegrify-space--small">
+                  <a
+                    className="alegrify-a"
+                    href="https://github.com/dejakob/whatsallowed.expat.barcelona"
+                    title="Contribute via GitHub"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Contribute
+                  </a>
+                </div>
               </Dd>
             </Dl>
           </GridCell>
