@@ -5,7 +5,6 @@ const {
   Main,
   H1,
   H2,
-  H3,
   P,
   Section,
   Dl,
@@ -13,6 +12,8 @@ const {
   Dd,
   Notification,
   Stepper,
+  Grid,
+  GridCell,
 } = require("react-alegrify-ui");
 
 const Head = require("../../components/lib/head");
@@ -64,114 +65,116 @@ function Index() {
         </div>
 
         <Main spaceXL>
-          <Stepper
-            steps={["Phase 0", "Phase 1", "Phase 2", "Phase 3", "Phase 4"]}
-            progress={20}
-          />
+          <div className="alegrify-space--extra-large">
+            <Stepper
+              steps={["Phase 0", "Phase 1", "Phase 2", "Phase 3", "Phase 4"]}
+              progress={20}
+            />
+          </div>
 
-          <H2 textStart spaceL>
-            Latest updates
-          </H2>
-          <Article spaceXL>
-            <H3 textStart>Update May 17th, 2020</H3>
-            <Section>
-              <P spaceL>
-                According to{" "}
-                <a
-                  href="https://www.lavanguardia.com/vida/20200517/481215986115/coronavirus-gobierno-aprobara-uso-obligatorio-mascarilla-lugares-publicos.html"
-                  title="Article regarding facemasks"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="alegrify-a"
-                >
-                  La Vanguardia
-                </a>
-                , face masks will be mandatory when you go outside. If you
-                don&acute;t have a face mask, you can get one for free at the
-                pharmacy, when you show your blue card (of the public health
-                insurance).
-              </P>
-            </Section>
-            <H3 textStart>Changes effective on May 18th (Phase 0.5)</H3>
-            <Section>
-              <ul className="alegrify-ul">
-                <li className="alegrify-ul__li">
-                  Funerals will be allowed for up to 10 people
-                </li>
-                <li className="alegrify-ul__li">
-                  More shops will open and reservation won&acute;t be needed
-                </li>
-                <li className="alegrify-ul__li">
-                  Social services will start to reopen
-                </li>
-                <li className="alegrify-ul__li">
-                  Some musea, cultural and scientific centers will open, but for
-                  a limited amount of visitors
-                </li>
-                <li className="alegrify-ul__li">
-                  Regligious activities, but with limited capacity (1/3rd)
-                </li>
-              </ul>
-            </Section>
-          </Article>
+          <Grid reverse>
+            <GridCell six>
+              <Article spaceXL>
+                <H2 textStart>Update May 17th, 2020</H2>
+                <Section>
+                  <P spaceL>
+                    According to{" "}
+                    <a
+                      href="https://www.lavanguardia.com/vida/20200517/481215986115/coronavirus-gobierno-aprobara-uso-obligatorio-mascarilla-lugares-publicos.html"
+                      title="Article regarding facemasks"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="alegrify-a"
+                    >
+                      La Vanguardia
+                    </a>
+                    , face masks will be mandatory when you go outside. If you
+                    don&acute;t have a face mask, you can get one for free at
+                    the pharmacy, when you show your blue card (of the public
+                    health insurance).
+                  </P>
+                </Section>
+                <H2 textStart>Changes effective on May 18th (Phase 0.5)</H2>
+                <Section>
+                  <ul className="alegrify-ul">
+                    <li className="alegrify-ul__li">
+                      Funerals will be allowed for up to 10 people
+                    </li>
+                    <li className="alegrify-ul__li">
+                      More shops will open and reservation won&acute;t be needed
+                    </li>
+                    <li className="alegrify-ul__li">
+                      Social services will start to reopen
+                    </li>
+                    <li className="alegrify-ul__li">
+                      Some musea, cultural and scientific centers will open, but
+                      for a limited amount of visitors
+                    </li>
+                    <li className="alegrify-ul__li">
+                      Regligious activities, but with limited capacity (1/3rd)
+                    </li>
+                  </ul>
+                </Section>
+              </Article>
+            </GridCell>
 
-          <H2 textStart spaceL>
-            Frequently Asked Questions
-          </H2>
-          <Article spaceXL>
-            <H3 textStart>Food, supermarket and pharmacy</H3>
-            <Section>
-              <Dl>
-                <Dt>Can I go to the supermarket?</Dt>
-                <Dd>Yes, you can, as well as to the pharmacy</Dd>
-                <Dt>During what time can I go for sport?</Dt>
-                <Dd>
-                  Every morning between 6am and 10am and every evening between
-                  8pm and 11pm
-                </Dd>
-                <Dt>At what time can I go buy my groceries?</Dt>
-                <Dd>Any time, as long as the store is open.</Dd>
-              </Dl>
-            </Section>
+            <GridCell six>
+              <Article spaceXL>
+                <H2 textStart>Food, supermarket and pharmacy</H2>
+                <Section>
+                  <Dl>
+                    <Dt>Can I go to the supermarket?</Dt>
+                    <Dd>Yes, you can, as well as to the pharmacy</Dd>
+                    <Dt>During what time can I go for sport?</Dt>
+                    <Dd>
+                      Every morning between 6am and 10am and every evening
+                      between 8pm and 11pm
+                    </Dd>
+                    <Dt>At what time can I go buy my groceries?</Dt>
+                    <Dd>Any time, as long as the store is open.</Dd>
+                  </Dl>
+                </Section>
 
-            <H3 textStart>Sport</H3>
-            <Section>
-              <Dl>
-                <Dt>Can I go for a run?</Dt>
-                <Dd>
-                  Yes, but only between 6am and 10am in the morning or between
-                  8pm and 11pm in the evening
-                </Dd>
-                <Dt>How far can I walk?</Dt>
-                <Dd>
-                  For recreational purposes, you can walk only up till 1km away
-                  from your home
-                </Dd>
-              </Dl>
-            </Section>
+                <H2 textStart>Sport</H2>
+                <Section>
+                  <Dl>
+                    <Dt>Can I go for a run?</Dt>
+                    <Dd>
+                      Yes, but only between 6am and 10am in the morning or
+                      between 8pm and 11pm in the evening
+                    </Dd>
+                    <Dt>How far can I walk?</Dt>
+                    <Dd>
+                      For recreational purposes, you can walk only up till 1km
+                      away from your home
+                    </Dd>
+                  </Dl>
+                </Section>
 
-            <H3 textStart>Pets</H3>
-            <Section>
-              <Dl>
-                <Dt>Can I walk my dog?</Dt>
-                <Dd>
-                  Yes, you can walk the dog and you do not have to do it during
-                  the fixed time slots, those are only for sporting.
-                </Dd>
-              </Dl>
-            </Section>
+                <H2 textStart>Pets</H2>
+                <Section>
+                  <Dl>
+                    <Dt>Can I walk my dog?</Dt>
+                    <Dd>
+                      Yes, you can walk the dog and you do not have to do it
+                      during the fixed time slots, those are only for sporting.
+                    </Dd>
+                  </Dl>
+                </Section>
 
-            <H3 textStart>Social</H3>
-            <Section>
-              <Dl>
-                <Dt>Can I meet with my friends?</Dt>
-                <Dd>
-                  No, that is not allowed at this time. Unless of course it is a
-                  virtual meeting.
-                </Dd>
-              </Dl>
-            </Section>
-          </Article>
+                <H2 textStart>Social</H2>
+                <Section>
+                  <Dl>
+                    <Dt>Can I meet with my friends?</Dt>
+                    <Dd>
+                      No, that is not allowed at this time. Unless of course it
+                      is a virtual meeting.
+                    </Dd>
+                  </Dl>
+                </Section>
+              </Article>
+            </GridCell>
+          </Grid>
 
           <Notification info title="About this page">
             <P>
