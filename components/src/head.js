@@ -21,16 +21,16 @@ function Head({ title, children }) {
       <meta name="keywords" content="covid, coronavirus, barcelona, expat" />
       <meta
         name="description"
-        content="What am I allowed to do in Barcelona during the state of Alarm? This website gives relevant information on what is and is not allowed during these weird times."
+        content="What am I allowed to do in Barcelona during the state of alarm? This website gives relevant information on what is and is not allowed during these weird times."
       />
       <meta
         property="og:description"
-        content="What am I allowed to do in Barcelona during the state of Alarm? This website gives relevant information on what is and is not allowed during these weird times."
+        content="What am I allowed to do in Barcelona during the state of alarm? This website gives relevant information on what is and is not allowed during these weird times."
       />
       <meta property="og:title" content={title} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="en-US" />
-      <meta property="og:site_name" content="" />
+      <meta property="og:site_name" content="What's allowed? (Expat.barcelona)" />
       <meta name="theme-color" content="#4e4cc1" />
       <meta name="msapplication-TileColor" content="#4e4cc1" />
       {children}

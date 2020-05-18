@@ -111,6 +111,9 @@ function Index() {
                       for a limited amount of visitors
                     </li>
                     <li className="alegrify-ul__li">
+                      Education centers, universities and libraries will also reopen
+                    </li>
+                    <li className="alegrify-ul__li">
                       Regligious activities, but with limited capacity (1/3rd)
                     </li>
                   </ul>
