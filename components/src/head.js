@@ -36,7 +36,7 @@ function Head({ title, children }) {
       {children}
       <link
         rel="stylesheet"
-        href="https://dejakob.com/alegrify-ui/alegrify-ui--article.min.css"
+        href="https://dejakob.com/alegrify-ui/alegrify-ui--dark.min.css"
       />
       <link id="favicon" rel="icon" type="image/x-icon" href="/favicon.ico" />
 
