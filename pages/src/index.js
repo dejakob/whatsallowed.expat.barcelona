@@ -18,7 +18,7 @@ const {
 } = require("react-alegrify-ui");
 
 const Head = require("../../components/lib/head");
-const Header = require('../../components/lib/header');
+const Header = require("../../components/lib/header");
 const Footer = require("../../components/lib/page-footer");
 
 function Index() {
@@ -29,12 +29,11 @@ function Index() {
         <Header />
 
         <Main spaceXL>
-          <div className="alegrify-space--extra-large">
-            <Stepper
-              steps={["Phase 0", "Phase 1", "Phase 2", "Phase 3", "Phase 4"]}
-              progress={20}
-            />
-          </div>
+          <Stepper
+            steps={["Phase 0", "Phase 1", "Phase 2", "Phase 3", "Phase 4"]}
+            progress={20}
+            spaceXL
+          />
 
           <H1>Current phase (0.5)</H1>
 

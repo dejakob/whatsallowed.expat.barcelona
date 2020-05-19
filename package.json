@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-alegrify-ui": "1.0.20",
+    "react-alegrify-ui": "1.0.21",
     "react-dom": "16.13.1"
   }
 }
