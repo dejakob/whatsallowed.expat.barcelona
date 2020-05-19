@@ -79,7 +79,7 @@ function Index() {
               <Article spaceXL>
                 <H2 textStart>Update May 20th, 2020</H2>
                 <Section>
-                  <P>
+                  <P spaceL>
                     According to{" "}
                     <a
                       title="Article regarding walking on the beach"
@@ -93,6 +93,10 @@ function Index() {
                     , walking on the beach will be allowed from May 20th (but
                     only between 6am and 8pm). Surfing would be allowed as well,
                     but only between 20h and 23h.
+                  </P>
+                  <P spaceL>
+                    All city parks will reopen. Some of them will even open
+                    sooner, so you can walk during the allowed timeframes.
                   </P>
                 </Section>
                 <H2 textStart>Update May 17th, 2020</H2>
