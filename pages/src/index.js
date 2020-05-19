@@ -75,9 +75,27 @@ function Index() {
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
+                <H2 textStart>Update May 20th, 2020</H2>
+                <Section>
+                  <P>
+                    According to{" "}
+                    <a
+                      title="Article regarding walking on the beach"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="alegrify-a"
+                      href="https://www.elperiodico.com/es/barcelona/20200516/barcelona-abrira-playas-pasear-miercoles-6-20-horas-7964091"
+                    >
+                      El Periodico
+                    </a>
+                    , walking on the beach will be allowed from May 20th as well
+                    as swimming and other sports. Surfing would be allowed as
+                    well, but only between 20h and 23h.
+                  </P>
+                </Section>
                 <H2 textStart>Update May 17th, 2020</H2>
                 <Section>
-                  <P spaceL>
+                  <P>
                     According to{" "}
                     <a
                       href="https://www.lavanguardia.com/vida/20200517/481215986115/coronavirus-gobierno-aprobara-uso-obligatorio-mascarilla-lugares-publicos.html"
@@ -111,7 +129,8 @@ function Index() {
                       for a limited amount of visitors
                     </li>
                     <li className="alegrify-ul__li">
-                      Education centers, universities and libraries will also reopen
+                      Education centers, universities and libraries will also
+                      reopen
                     </li>
                     <li className="alegrify-ul__li">
                       Regligious activities, but with limited capacity (1/3rd)
