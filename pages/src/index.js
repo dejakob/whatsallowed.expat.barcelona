@@ -72,6 +72,8 @@ function Index() {
             />
           </div>
 
+          <H1>Current phase (0.5)</H1>
+
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
@@ -88,8 +90,9 @@ function Index() {
                     >
                       El Periodico
                     </a>
-                    , walking on the beach will be allowed from May 20th (but only between 6am and 8pm).
-                    Surfing would be allowed as well, but only between 20h and 23h.
+                    , walking on the beach will be allowed from May 20th (but
+                    only between 6am and 8pm). Surfing would be allowed as well,
+                    but only between 20h and 23h.
                   </P>
                 </Section>
                 <H2 textStart>Update May 17th, 2020</H2>
@@ -153,6 +156,11 @@ function Index() {
                     </Dd>
                     <Dt>At what time can I go buy my groceries?</Dt>
                     <Dd>Any time, as long as the store is open.</Dd>
+                    <Dt>Can I go to a restaurant?</Dt>
+                    <Dd>
+                      You can go to a restaurant to take away a meal. You cannot
+                      eat inside a restaurant (yet)
+                    </Dd>
                   </Dl>
                 </Section>
 
@@ -170,9 +178,7 @@ function Index() {
                       away from your home
                     </Dd>
                     <Dt>Can I walk on the beach?</Dt>
-                    <Dd>
-                      Yes, but only during morning hours.
-                    </Dd>
+                    <Dd>Yes, but only during morning hours.</Dd>
                   </Dl>
                 </Section>
 
@@ -196,6 +202,43 @@ function Index() {
                       is a virtual meeting.
                     </Dd>
                   </Dl>
+                </Section>
+              </Article>
+            </GridCell>
+          </Grid>
+
+          <H1>Upcoming phase (phase 1)</H1>
+
+          <Grid reverse>
+            <GridCell six>
+              <Article spaceXL>
+                <H2 textStart>When?</H2>
+                <Section>
+                  Hopefully the city of Barcelona will be able to move to phase
+                  one on Monday May 25th
+                </Section>
+              </Article>
+            </GridCell>
+            <GridCell six>
+              <Article spaceXL>
+                <H2 textStart>What will change? (most probably)</H2>
+                <Section>
+                  <ul className="alegrify-ul alegrify-space--large">
+                    <li className="alegrify-ul__li">
+                      Social gatherings of up to 10 people
+                    </li>
+                    <li className="alegrify-ul__li">
+                      Face masks required when going out
+                    </li>
+                    <li className="alegrify-ul__li">
+                      Some terraces and restaurants might open with limited
+                      spaces
+                    </li>
+                  </ul>
+                  <P>
+                    It is at this time unclear whether or not the fixed
+                    timetables for walking/exercising will be removed.
+                  </P>
                 </Section>
               </Article>
             </GridCell>
