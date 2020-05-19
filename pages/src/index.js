@@ -88,9 +88,8 @@ function Index() {
                     >
                       El Periodico
                     </a>
-                    , walking on the beach will be allowed from May 20th as well
-                    as swimming and other sports. Surfing would be allowed as
-                    well, but only between 20h and 23h.
+                    , walking on the beach will be allowed from May 20th (but only between 6am and 8pm).
+                    Surfing would be allowed as well, but only between 20h and 23h.
                   </P>
                 </Section>
                 <H2 textStart>Update May 17th, 2020</H2>
