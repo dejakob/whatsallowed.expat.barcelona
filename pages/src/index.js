@@ -96,7 +96,7 @@ function Index() {
                   </P>
                   <P spaceL>
                     All city parks will reopen. Some of them will even open
-                    sooner, so you can walk during the allowed timeframes.
+                    sooner, so you can walk during the permitted timeframes.
                   </P>
                 </Section>
                 <H2 textStart>Update May 17th, 2020</H2>
