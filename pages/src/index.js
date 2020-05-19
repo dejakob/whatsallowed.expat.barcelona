@@ -1,5 +1,6 @@
 const React = require("react");
 const {
+  A,
   Article,
   Body,
   Main,
@@ -81,15 +82,13 @@ function Index() {
                 <Section>
                   <P spaceL>
                     According to{" "}
-                    <a
+                    <A
                       title="Article regarding walking on the beach"
                       target="_blank"
-                      rel="noreferrer noopener"
-                      className="alegrify-a"
                       href="https://www.elperiodico.com/es/barcelona/20200516/barcelona-abrira-playas-pasear-miercoles-6-20-horas-7964091"
                     >
                       El Periodico
-                    </a>
+                    </A>
                     , walking on the beach will be allowed from May 20th (but
                     only between 6am and 8pm). Surfing would be allowed as well,
                     but only between 20h and 23h.
@@ -103,15 +102,13 @@ function Index() {
                 <Section>
                   <P>
                     According to{" "}
-                    <a
+                    <A
                       href="https://www.lavanguardia.com/vida/20200517/481215986115/coronavirus-gobierno-aprobara-uso-obligatorio-mascarilla-lugares-publicos.html"
                       title="Article regarding facemasks"
                       target="_blank"
-                      rel="noreferrer noopener"
-                      className="alegrify-a"
                     >
                       La Vanguardia
-                    </a>
+                    </A>
                     , face masks will be mandatory when you go outside. If you
                     don&acute;t have a face mask, you can get one for free at
                     the pharmacy, when you show your blue card (of the public
@@ -257,15 +254,13 @@ function Index() {
               articles, etc. However, the owner of this website cannot be held
               accountable if any information is incorrect or out of date. If you
               find any information that is incorrect, feel free to{" "}
-              <a
+              <A
                 className="alegrify-a"
                 href="https://m.me/alegrify"
                 title="Contact us"
-                target="_blank"
-                rel="noreferrer noopener"
               >
                 reach out
-              </a>
+              </A>
               .
             </P>
           </Notification>
