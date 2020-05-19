@@ -18,6 +18,7 @@ const {
 } = require("react-alegrify-ui");
 
 const Head = require("../../components/lib/head");
+const Header = require('../../components/lib/header');
 const Footer = require("../../components/lib/page-footer");
 
 function Index() {
@@ -25,45 +26,7 @@ function Index() {
     <html lang="en" dir="ltr">
       <Head title="What is allowed?" />
       <Body>
-        <div
-          style={{
-            backgroundImage: "url(/barcelona.jpg)",
-            backgroundSize: "cover",
-            backgroundPosition: "center center",
-            backgroundRepeat: "no-repeat",
-            marginTop: "-32px",
-            paddingTop: "32px",
-          }}
-          className="alegrify-space--extra-large"
-        >
-          <div
-            style={{
-              background: "radial-gradient(#000000, transparent)",
-              paddingTop: "1px",
-            }}
-          >
-            <Main>
-              <H1 textCenter>
-                <span
-                  className="alegrify-align-child--center"
-                  role="img"
-                  aria-label="Virus icon"
-                  style={{
-                    fontSize: "9rem",
-                    display: "block",
-                    lineHeight: "12rem",
-                  }}
-                >
-                  🦠
-                </span>
-                What&acute;s allowed?
-              </H1>
-              <P spaceXL textCenter>
-                Your guide through insane times in Barcelona
-              </P>
-            </Main>
-          </div>
-        </div>
+        <Header />
 
         <Main spaceXL>
           <div className="alegrify-space--extra-large">
