@@ -169,6 +169,10 @@ function Index() {
                       For recreational purposes, you can walk only up till 1km
                       away from your home
                     </Dd>
+                    <Dt>Can I walk on the beach?</Dt>
+                    <Dd>
+                      Yes, but only during morning hours.
+                    </Dd>
                   </Dl>
                 </Section>
 
