@@ -15,3 +15,4 @@ What am I allowed to do in Barcelona during the state of Alarm? This website giv
 * Ksenia Trefilova (via [Expats: Living in Barcelona](https://www.facebook.com/groups/127574624486706))
 * Luke Smith-Lazarte (via [Expats: Living in Barcelona](https://www.facebook.com/groups/127574624486706))
 * [stsatlantis](https://github.com/stsatlantis)
+* Ivan Stoilov (via Messenger)
