@@ -47,7 +47,7 @@ function Index() {
                     going outside and inside in public places. There are of
                     course some exceptions if you cannot wear a face mask for
                     health reasons or if you&acute;re doing intense sports such
-                    as running.
+                    as running or if you can keep a 2m distance at all times.
                   </P>
                 </Section>
                 <H2 textStart>Update May 20th, 2020</H2>
