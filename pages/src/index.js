@@ -43,9 +43,9 @@ function Index() {
                 <H2 textStart>Update May 21st, 2020</H2>
                 <Section>
                   <P spaceL>
-                    As of Thursday May 21st, masks will be required when going
+                    As of Thursday May 21st, face masks will be required when going
                     outside and inside in public places. There are of course
-                    some exceptions if you cannot wear a mask for health reasons
+                    some exceptions if you cannot wear a face mask for health reasons
                     or if you&acute;re doing intense sports such as running.
                   </P>
                 </Section>
@@ -119,30 +119,30 @@ function Index() {
                   </Dl>
                 </Section>
 
-                <H2 textStart>Masks</H2>
+                <H2 textStart>Face masks</H2>
                 <Section>
                   <Dl>
-                    <Dt>Do I have to wear a mask?</Dt>
+                    <Dt>Do I have to wear a face mask?</Dt>
                     <Dd>
-                      As of Thursday May 21st, you are required to wear a mask
+                      As of Thursday May 21st, you are required to wear a face mask
                       when walking outside
                     </Dd>
                     <Dt>
-                      Do I need to wear a mask when doing intense sport (e.g.
+                      Do I need to wear a face mask when doing intense sport (e.g.
                       running)?
                     </Dt>
                     <Dd>
                       According to the Health minister not. This would be an
-                      exception where wearing a mask is incompatible with
+                      exception where wearing a face mask is incompatible with
                       carrying out activities.
                       <br />
-                      However, it is always recommended to wear a mask
+                      However, it is always recommended to wear a face mask
                     </Dd>
-                    <Dt>Where can I get a mask?</Dt>
+                    <Dt>Where can I get a face mask?</Dt>
                     <Dd>
-                      You can get one mask for free when going to the pharmacy
+                      You can get one face mask for free when going to the pharmacy
                       by showing your blue card of the public health insurance.
-                      Amazon is also selling masks, but their delivery times can
+                      Amazon is also selling face masks, but their delivery times can
                       take up to a month.
                     </Dd>
                   </Dl>
@@ -210,9 +210,6 @@ function Index() {
                   <ul className="alegrify-ul alegrify-space--large">
                     <li className="alegrify-ul__li">
                       Social gatherings of up to 10 people
-                    </li>
-                    <li className="alegrify-ul__li">
-                      Face masks required when going out
                     </li>
                     <li className="alegrify-ul__li">
                       Some terraces and restaurants might open with limited
