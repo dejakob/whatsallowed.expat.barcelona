@@ -40,6 +40,15 @@ function Index() {
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
+                <H2 textStart>Update May 21st, 2020</H2>
+                <Section>
+                  <P spaceL>
+                    As of Thursday May 21st, masks will be required when going
+                    outside and inside in public places. There are of course
+                    some exceptions if you cannot wear a mask for health reasons
+                    or if you&acute;re doing intense sports such as running.
+                  </P>
+                </Section>
                 <H2 textStart>Update May 20th, 2020</H2>
                 <Section>
                   <P spaceL>
@@ -58,23 +67,6 @@ function Index() {
                   <P spaceL>
                     All city parks will reopen. Some of them will even open
                     sooner, so you can walk during the permitted timeframes.
-                  </P>
-                </Section>
-                <H2 textStart>Update May 17th, 2020</H2>
-                <Section>
-                  <P>
-                    According to{" "}
-                    <A
-                      href="https://www.lavanguardia.com/vida/20200517/481215986115/coronavirus-gobierno-aprobara-uso-obligatorio-mascarilla-lugares-publicos.html"
-                      title="Article regarding facemasks"
-                      target="_blank"
-                    >
-                      La Vanguardia
-                    </A>
-                    , face masks will be mandatory when you go outside. If you
-                    don&acute;t have a face mask, you can get one for free at
-                    the pharmacy, when you show your blue card (of the public
-                    health insurance).
                   </P>
                 </Section>
                 <H2 textStart>Changes effective on May 18th (Phase 0.5)</H2>
@@ -123,6 +115,35 @@ function Index() {
                     <Dd>
                       You can go to a restaurant to take away a meal. You cannot
                       eat inside a restaurant (yet)
+                    </Dd>
+                  </Dl>
+                </Section>
+
+                <H2 textStart>Masks</H2>
+                <Section>
+                  <Dl>
+                    <Dt>Do I have to wear a mask?</Dt>
+                    <Dd>
+                      As of Thursday May 21st, you are required to wear a mask
+                      when walking outside
+                    </Dd>
+                    <Dt>
+                      Do I need to wear a mask when doing intense sport (e.g.
+                      running)?
+                    </Dt>
+                    <Dd>
+                      According to the Health minister not. This would be an
+                      exception where wearing a mask is incompatible with
+                      carrying out activities.
+                      <br />
+                      However, it is always recommended to wear a mask
+                    </Dd>
+                    <Dt>Where can I get a mask?</Dt>
+                    <Dd>
+                      You can get one mask for free when going to the pharmacy
+                      by showing your blue card of the public health insurance.
+                      Amazon is also selling masks, but their delivery times can
+                      take up to a month.
                     </Dd>
                   </Dl>
                 </Section>
