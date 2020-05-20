@@ -43,10 +43,11 @@ function Index() {
                 <H2 textStart>Update May 21st, 2020</H2>
                 <Section>
                   <P spaceL>
-                    As of Thursday May 21st, face masks will be required when going
-                    outside and inside in public places. There are of course
-                    some exceptions if you cannot wear a face mask for health reasons
-                    or if you&acute;re doing intense sports such as running.
+                    As of Thursday May 21st, face masks will be required when
+                    going outside and inside in public places. There are of
+                    course some exceptions if you cannot wear a face mask for
+                    health reasons or if you&acute;re doing intense sports such
+                    as running.
                   </P>
                 </Section>
                 <H2 textStart>Update May 20th, 2020</H2>
@@ -124,12 +125,12 @@ function Index() {
                   <Dl>
                     <Dt>Do I have to wear a face mask?</Dt>
                     <Dd>
-                      As of Thursday May 21st, you are required to wear a face mask
-                      when walking outside
+                      As of Thursday May 21st, you are required to wear a face
+                      mask when walking outside
                     </Dd>
                     <Dt>
-                      Do I need to wear a face mask when doing intense sport (e.g.
-                      running)?
+                      Do I need to wear a face mask when doing intense sport
+                      (e.g. running)?
                     </Dt>
                     <Dd>
                       According to the Health minister not. This would be an
@@ -140,10 +141,17 @@ function Index() {
                     </Dd>
                     <Dt>Where can I get a face mask?</Dt>
                     <Dd>
-                      You can get one face mask for free when going to the pharmacy
-                      by showing your blue card of the public health insurance.
-                      Amazon is also selling face masks, but their delivery times can
-                      take up to a month.
+                      You can get one face mask for free when going to the
+                      pharmacy by showing your blue card of the public health
+                      insurance. Amazon is also selling face masks, but their
+                      delivery times can take up to a month.
+                    </Dd>
+                    <Dt>Do I need to wear a mask when I&acute;m alone?</Dt>
+                    <Dd>
+                      No. Masks are only required when you cannot preserve a
+                      distance of 2 meter between yourself and other people.
+                      However, it&acute;s better to always have a mask with you
+                      for when you cannot preserve this distance.
                     </Dd>
                   </Dl>
                 </Section>
