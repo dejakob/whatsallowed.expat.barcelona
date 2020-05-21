@@ -18,9 +18,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "alegrify-static-site": "1.0.59"
+    "alegrify-static-site": "1.0.67"
   },
   "dependencies": {
+    "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-alegrify-ui": "1.0.21",
     "react-dom": "16.13.1"
