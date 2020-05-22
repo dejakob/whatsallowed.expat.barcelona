@@ -202,7 +202,7 @@ function Index() {
             </GridCell>
             <GridCell six>
               <Article spaceXL>
-                <H2 textStart>What will change? (most probably)</H2>
+                <H2 textStart>What will change?</H2>
                 <Section>
                   <Ul spaceL>
                     <Li>Social gatherings of up to 10 people</Li>
