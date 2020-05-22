@@ -15,6 +15,8 @@ const {
   Stepper,
   Grid,
   GridCell,
+  Li,
+  Ul,
 } = require("react-alegrify-ui");
 
 const Head = require("../../components/lib/head");
@@ -40,6 +42,18 @@ function Index() {
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
+                <H2 textStart>Update May 22nd, 2020</H2>
+                <Section>
+                  <P spaceL>
+                    Health minister Salvador Illa confirmed that Barcelona will
+                    move to phase 1 on Monday May 25th.
+                  </P>
+                  <P spaceL>
+                    In this phase, some terraces can open for a limited amount
+                    of people and social gatherings are allowed up till ten
+                    people.
+                  </P>
+                </Section>
                 <H2 textStart>Update May 21st, 2020</H2>
                 <Section>
                   <P spaceL>
@@ -69,31 +83,6 @@ function Index() {
                     All city parks will reopen. Some of them will even open
                     sooner, so you can walk during the permitted timeframes.
                   </P>
-                </Section>
-                <H2 textStart>Changes effective on May 18th (Phase 0.5)</H2>
-                <Section>
-                  <ul className="alegrify-ul">
-                    <li className="alegrify-ul__li">
-                      Funerals will be allowed for up to 10 people
-                    </li>
-                    <li className="alegrify-ul__li">
-                      More shops will open and reservation won&acute;t be needed
-                    </li>
-                    <li className="alegrify-ul__li">
-                      Social services will start to reopen
-                    </li>
-                    <li className="alegrify-ul__li">
-                      Some musea, cultural and scientific centers will open, but
-                      for a limited amount of visitors
-                    </li>
-                    <li className="alegrify-ul__li">
-                      Education centers, universities and libraries will also
-                      reopen
-                    </li>
-                    <li className="alegrify-ul__li">
-                      Regligious activities, but with limited capacity (1/3rd)
-                    </li>
-                  </ul>
                 </Section>
               </Article>
             </GridCell>
@@ -199,15 +188,15 @@ function Index() {
             </GridCell>
           </Grid>
 
-          <H1>Upcoming phase (phase 1)</H1>
+          <H1>Phase 1: (Monday May 25th)</H1>
 
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
                 <H2 textStart>When?</H2>
                 <Section>
-                  Hopefully the city of Barcelona will be able to move to phase
-                  one on Monday May 25th
+                  Barcelona metropolitan area will be able to move to phase one
+                  on Monday May 25th (confirmed on May 22nd, 2020)
                 </Section>
               </Article>
             </GridCell>
@@ -215,15 +204,13 @@ function Index() {
               <Article spaceXL>
                 <H2 textStart>What will change? (most probably)</H2>
                 <Section>
-                  <ul className="alegrify-ul alegrify-space--large">
-                    <li className="alegrify-ul__li">
-                      Social gatherings of up to 10 people
-                    </li>
-                    <li className="alegrify-ul__li">
+                  <Ul spaceL>
+                    <Li>Social gatherings of up to 10 people</Li>
+                    <Li className="alegrify-ul__li">
                       Some terraces and restaurants might open with limited
                       spaces
-                    </li>
-                  </ul>
+                    </Li>
+                  </Ul>
                   <P>
                     It is at this time unclear whether or not the fixed
                     timetables for walking/exercising will be removed.
