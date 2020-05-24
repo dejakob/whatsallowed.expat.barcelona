@@ -212,8 +212,8 @@ function Index() {
                     </Li>
                   </Ul>
                   <P>
-                    It is at this time unclear whether or not the fixed
-                    timetables for walking/exercising will be removed.
+                    At this time, the time tables will not be lifted, unless
+                    told otherwise by the authorities
                   </P>
                 </Section>
               </Article>
