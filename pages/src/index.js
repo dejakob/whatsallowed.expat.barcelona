@@ -103,8 +103,8 @@ function Index() {
                     <Dd>Any time, as long as the store is open.</Dd>
                     <Dt>Can I go to a restaurant?</Dt>
                     <Dd>
-                      You can go to a restaurant to take away a meal. You cannot
-                      eat inside a restaurant (yet)
+                      You can go to a restaurant to take away a meal. As of May
+                      25th, some restaurants might open their outside terraces.
                     </Dd>
                   </Dl>
                 </Section>
@@ -179,8 +179,8 @@ function Index() {
                   <Dl>
                     <Dt>Can I meet with my friends?</Dt>
                     <Dd>
-                      No, that is not allowed at this time. Unless of course it
-                      is a virtual meeting.
+                      As of May 25th, you are allowed to meet with up to 9
+                      friends.
                     </Dd>
                   </Dl>
                 </Section>
@@ -211,13 +211,61 @@ function Index() {
                       spaces
                     </Li>
                     <Li className>
-                      Shopping malls may reopen at a limited capacity
+                      Some stores in shopping malls may reopen at a limited
+                      capacity
                     </Li>
                   </Ul>
-                  <P>
+                  <P spaceL>
                     At this time, the time tables will not be lifted, unless
-                    told otherwise by the authorities
+                    told otherwise by the authorities.
                   </P>
+                  <P>
+                    In phase 1, it is not allowed to visit friends in another
+                    city.
+                  </P>
+                </Section>
+              </Article>
+            </GridCell>
+          </Grid>
+
+          <H1>Phase 2: (date to be confirmed)</H1>
+
+          <Grid>
+            <GridCell six>
+              <Article spaceXL>
+                <H2 textStart>When?</H2>
+                <Section>
+                  Unclear at this point, but other regions in Spain are already
+                  moving to phase 2 on Monday May 25th.
+                </Section>
+              </Article>
+            </GridCell>
+            <GridCell six>
+              <Article spaceXL>
+                <H2 textStart>What will change?</H2>
+                <Section>
+                  <Ul spaceL>
+                    <Li>Social gatherings of up to 15 people</Li>
+                    <Li>
+                      Time tables will be partially lifted. There will be still
+                      a restriction: 10am to 12pm and 7 to 8pm are reserved for
+                      seniors aged over 70.
+                    </Li>
+                    <Li>Some shopping malls will reopen at limited capacity</Li>
+                    <Li>
+                      Restaurants and bars can also open indoors, but with
+                      limited capacity
+                    </Li>
+                    <Li>Smaller open air markets</Li>
+                    <Li>
+                      Concerts, theaters might reopen but only on places where
+                      social distancing measures can be applied and limited
+                      capacity
+                    </Li>
+                    <Li>
+                      Allowed to travel to other cities inside the same province
+                    </Li>
+                  </Ul>
                 </Section>
               </Article>
             </GridCell>
