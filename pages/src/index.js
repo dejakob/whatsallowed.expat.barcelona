@@ -210,6 +210,9 @@ function Index() {
                       Some terraces and restaurants might open with limited
                       spaces
                     </Li>
+                    <Li className>
+                      Shopping malls may reopen at a limited capacity
+                    </Li>
                   </Ul>
                   <P>
                     At this time, the time tables will not be lifted, unless
