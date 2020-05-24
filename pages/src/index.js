@@ -32,8 +32,14 @@ function Index() {
 
         <Main spaceXL>
           <Stepper
-            steps={["Phase 0", "Phase 1", "Phase 2", "Phase 3", "Phase 4"]}
-            progress={20}
+            steps={[
+              <A href="#top">Phase 0</A>,
+              <A href="#phase1">Phase 1</A>,
+              <A href="#phase2">Phase 2</A>,
+              "Phase 3",
+              "Phase 4",
+            ]}
+            progress={24}
             spaceXL
           />
 
@@ -188,7 +194,7 @@ function Index() {
             </GridCell>
           </Grid>
 
-          <H1>Phase 1: (Monday May 25th)</H1>
+          <H1 id="phase1">Phase 1: (Monday May 25th)</H1>
 
           <Grid reverse>
             <GridCell six>
@@ -228,7 +234,7 @@ function Index() {
             </GridCell>
           </Grid>
 
-          <H1>Phase 2: (date to be confirmed)</H1>
+          <H1 id="phase2">Phase 2: (date to be confirmed)</H1>
 
           <Grid>
             <GridCell six>
