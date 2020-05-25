@@ -211,7 +211,7 @@ function Index() {
                 <H2 textStart>When?</H2>
                 <Section>
                   Unclear at this point, but other regions in Spain are already
-                  moving to phase 2 on Monday May 25th.
+                  in phase 2
                 </Section>
               </Article>
             </GridCell>
