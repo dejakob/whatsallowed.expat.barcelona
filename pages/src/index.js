@@ -33,8 +33,8 @@ function Index() {
         <Main spaceXL>
           <Stepper
             steps={[
-              <A href="#top">Phase 0</A>,
-              <A href="#phase1">Phase 1</A>,
+              "Phase 0",
+              <A href="#top">Phase 1</A>,
               <A href="#phase2">Phase 2</A>,
               "Phase 3",
               "Phase 4",
@@ -43,7 +43,7 @@ function Index() {
             spaceXL
           />
 
-          <H1>Current phase (0.5)</H1>
+          <H1>Current phase (1)</H1>
 
           <Grid reverse>
             <GridCell six>
@@ -95,7 +95,7 @@ function Index() {
 
             <GridCell six>
               <Article spaceXL>
-                <H2 textStart>Food, supermarket and pharmacy</H2>
+                <H2 textStart>Stores and restaurants</H2>
                 <Section>
                   <Dl>
                     <Dt>Can I go to the supermarket?</Dt>
@@ -109,9 +109,16 @@ function Index() {
                     <Dd>Any time, as long as the store is open.</Dd>
                     <Dt>Can I go to a restaurant?</Dt>
                     <Dd>
-                      You can go to a restaurant to take away a meal. As of May
-                      25th, some restaurants might open their outside terraces.
+                      You can go to a restaurant to take away a meal as well as
+                      eat on the terrace of some restaurants
                     </Dd>
+                    <Dt>Can I go to the bar?</Dt>
+                    <Dd>
+                      Yes, but you have to sit outside on the sidewalk or on a
+                      terrace
+                    </Dd>
+                    <Dt>Can I go buy clothes?</Dt>
+                    <Dd>Yes, as long as the store is open</Dd>
                   </Dl>
                 </Section>
 
@@ -184,51 +191,13 @@ function Index() {
                 <Section>
                   <Dl>
                     <Dt>Can I meet with my friends?</Dt>
+                    <Dd>You are allowed to meet with up to 9 friends.</Dd>
+                    <Dt>Can I meet friends in close cities?</Dt>
                     <Dd>
-                      As of May 25th, you are allowed to meet with up to 9
-                      friends.
+                      Not yet, travelling to near cities will only be allowed in
+                      phase 2.
                     </Dd>
                   </Dl>
-                </Section>
-              </Article>
-            </GridCell>
-          </Grid>
-
-          <H1 id="phase1">Phase 1: (Monday May 25th)</H1>
-
-          <Grid reverse>
-            <GridCell six>
-              <Article spaceXL>
-                <H2 textStart>When?</H2>
-                <Section>
-                  Barcelona metropolitan area will be able to move to phase one
-                  on Monday May 25th (confirmed on May 22nd, 2020)
-                </Section>
-              </Article>
-            </GridCell>
-            <GridCell six>
-              <Article spaceXL>
-                <H2 textStart>What will change?</H2>
-                <Section>
-                  <Ul spaceL>
-                    <Li>Social gatherings of up to 10 people</Li>
-                    <Li className="alegrify-ul__li">
-                      Some terraces and restaurants might open with limited
-                      spaces
-                    </Li>
-                    <Li className>
-                      Some stores in shopping malls may reopen at a limited
-                      capacity
-                    </Li>
-                  </Ul>
-                  <P spaceL>
-                    At this time, the time tables will not be lifted, unless
-                    told otherwise by the authorities.
-                  </P>
-                  <P>
-                    In phase 1, it is not allowed to visit friends in another
-                    city.
-                  </P>
                 </Section>
               </Article>
             </GridCell>
