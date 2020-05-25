@@ -39,7 +39,7 @@ function Index() {
               "Phase 3",
               "Phase 4",
             ]}
-            progress={24}
+            progress={33}
             spaceXL
           />
 
