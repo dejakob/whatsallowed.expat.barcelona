@@ -48,6 +48,12 @@ function Index() {
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
+                <H2 textStart>Update May 28th, 2020</H2>
+                <Section>
+                  <P spaceL>
+                    As of Monday June 1st, you will be allowed to travel around the Barcelona metropolitan area.
+                  </P>
+                </Section>
                 <H2 textStart>Update May 22nd, 2020</H2>
                 <Section>
                   <P spaceL>
