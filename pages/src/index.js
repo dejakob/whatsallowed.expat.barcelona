@@ -39,7 +39,7 @@ function Index() {
               "Phase 3",
               "Phase 4",
             ]}
-            progress={33}
+            progress={45}
             spaceXL
           />
 
@@ -48,6 +48,13 @@ function Index() {
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
+                <H2 textStart>Update June 6th, 2020</H2>
+                <Section>
+                  <P spaceL>
+                    Barcelona will most probably be able to move to phase two as
+                    of Monday June 8th.
+                  </P>
+                </Section>
                 <H2 textStart>Update May 22nd, 2020</H2>
                 <Section>
                   <P spaceL>
@@ -203,16 +210,13 @@ function Index() {
             </GridCell>
           </Grid>
 
-          <H1 id="phase2">Phase 2: (date to be confirmed)</H1>
+          <H1 id="phase2">Phase 2: (probably Monday June 8th)</H1>
 
           <Grid>
             <GridCell six>
               <Article spaceXL>
                 <H2 textStart>When?</H2>
-                <Section>
-                  Unclear at this point, but other regions in Spain are already
-                  in phase 2
-                </Section>
+                <Section>Probably Monday June 8th</Section>
               </Article>
             </GridCell>
             <GridCell six>
