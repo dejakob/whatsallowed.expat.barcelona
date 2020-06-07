@@ -34,20 +34,26 @@ function Index() {
           <Stepper
             steps={[
               "Phase 0",
-              <A href="#top">Phase 1</A>,
-              <A href="#phase2">Phase 2</A>,
-              "Phase 3",
+              "Phase 1",
+              <A href="#top">Phase 2</A>,
+              <A href="#phase-3">Phase 3</A>,
               "Phase 4",
             ]}
-            progress={45}
+            progress={50}
             spaceXL
           />
 
-          <H1>Current phase (1)</H1>
+          <H1>Current phase (2)</H1>
 
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
+                <H2 textStart>Update June 8th, 2020</H2>
+                <Section>
+                  <P spaceL>
+                    Barcelona is now entering phase 2.
+                  </P>
+                </Section>
                 <H2 textStart>Update June 6th, 2020</H2>
                 <Section>
                   <P spaceL>
@@ -84,26 +90,6 @@ function Index() {
                     as running or if you can keep a 2m distance at all times.
                   </P>
                 </Section>
-                <H2 textStart>Update May 20th, 2020</H2>
-                <Section>
-                  <P spaceL>
-                    According to{" "}
-                    <A
-                      title="Article regarding walking on the beach"
-                      target="_blank"
-                      href="https://www.elperiodico.com/es/barcelona/20200516/barcelona-abrira-playas-pasear-miercoles-6-20-horas-7964091"
-                    >
-                      El Periodico
-                    </A>
-                    , walking on the beach will be allowed from May 20th (but
-                    only between 6am and 8pm). Surfing would be allowed as well,
-                    but only between 20h and 23h.
-                  </P>
-                  <P spaceL>
-                    All city parks will reopen. Some of them will even open
-                    sooner, so you can walk during the permitted timeframes.
-                  </P>
-                </Section>
               </Article>
             </GridCell>
 
@@ -115,10 +101,7 @@ function Index() {
                     <Dt>Can I go to the supermarket?</Dt>
                     <Dd>Yes, you can, as well as to the pharmacy</Dd>
                     <Dt>During what time can I go for sport?</Dt>
-                    <Dd>
-                      Every morning between 6am and 10am and every evening
-                      between 8pm and 11pm
-                    </Dd>
+                    <Dd>Anytime</Dd>
                     <Dt>At what time can I go buy my groceries?</Dt>
                     <Dd>Any time, as long as the store is open.</Dd>
                     <Dt>Can I go to a restaurant?</Dt>
@@ -133,6 +116,13 @@ function Index() {
                     </Dd>
                     <Dt>Can I go buy clothes?</Dt>
                     <Dd>Yes, as long as the store is open</Dd>
+                    <Dt>Are shopping malls open?</Dt>
+                    <Dd>
+                      Depends on the mall. They are allowed to open with
+                      restictions. Probably more malls will open over time.
+                    </Dd>
+                    <Dt>Can I visit an open air market</Dt>
+                    <Dd>There will be some adjustments, but you are allowed to visit an open air market</Dd>
                   </Dl>
                 </Section>
 
@@ -165,9 +155,17 @@ function Index() {
                     <Dt>Do I need to wear a mask when I&acute;m alone?</Dt>
                     <Dd>
                       No. Masks are only required when you cannot preserve a
-                      distance of 2 meter between yourself and other people.
+                      distance of 1.5-2 meter between yourself and other people.
                       However, it&acute;s better to always have a mask with you
                       for when you cannot preserve this distance.
+                    </Dd>
+                    <Dt>
+                      Will I still need to wear masks when the state of alarm is
+                      over?
+                    </Dt>
+                    <Dd>
+                      Yes, and if you do not wear a mask when being closer to
+                      someone than 1.5-2m, you can be fined 100 euro.
                     </Dd>
                   </Dl>
                 </Section>
@@ -176,14 +174,10 @@ function Index() {
                 <Section>
                   <Dl>
                     <Dt>Can I go for a run?</Dt>
-                    <Dd>
-                      Yes, but only between 6am and 10am in the morning or
-                      between 8pm and 11pm in the evening
-                    </Dd>
+                    <Dd>Yes, at any time you want</Dd>
                     <Dt>How far can I walk?</Dt>
                     <Dd>
-                      For recreational purposes, you can walk only up till 1km
-                      away from your home
+                      As far as you want, as long as you stay within your region
                     </Dd>
                     <Dt>Can I walk on the beach?</Dt>
                     <Dd>Yes, but only during morning hours.</Dd>
@@ -194,10 +188,7 @@ function Index() {
                 <Section>
                   <Dl>
                     <Dt>Can I walk my dog?</Dt>
-                    <Dd>
-                      Yes, you can walk the dog and you do not have to do it
-                      during the fixed time slots, those are only for sporting.
-                    </Dd>
+                    <Dd>Yes, you can walk the dog at antime.</Dd>
                   </Dl>
                 </Section>
 
@@ -205,11 +196,11 @@ function Index() {
                 <Section>
                   <Dl>
                     <Dt>Can I meet with my friends?</Dt>
-                    <Dd>You are allowed to meet with up to 9 friends.</Dd>
+                    <Dd>You are allowed to meet with up to 14 friends.</Dd>
                     <Dt>Can I meet friends in close cities?</Dt>
                     <Dd>
-                      Not yet, travelling to near cities will only be allowed in
-                      phase 2.
+                      This is allowed now, as long as you stay within the same
+                      region.
                     </Dd>
                   </Dl>
                 </Section>
@@ -217,13 +208,13 @@ function Index() {
             </GridCell>
           </Grid>
 
-          <H1 id="phase2">Phase 2: (probably Monday June 8th)</H1>
+          <H1 id="phase3">Phase 3: (date to be confirmed)</H1>
 
           <Grid>
             <GridCell six>
               <Article spaceXL>
                 <H2 textStart>When?</H2>
-                <Section>Probably Monday June 8th</Section>
+                <Section>To be confirmed</Section>
               </Article>
             </GridCell>
             <GridCell six>
@@ -231,26 +222,11 @@ function Index() {
                 <H2 textStart>What will change?</H2>
                 <Section>
                   <Ul spaceL>
-                    <Li>Social gatherings of up to 15 people</Li>
-                    <Li>
-                      Time tables will be partially lifted. There will be still
-                      a restriction: 10am to 12pm and 7 to 8pm are reserved for
-                      seniors aged over 70.
-                    </Li>
-                    <Li>Some shopping malls will reopen at limited capacity</Li>
-                    <Li>
-                      Restaurants and bars can also open indoors, but with
-                      limited capacity
-                    </Li>
-                    <Li>Smaller open air markets</Li>
-                    <Li>
-                      Concerts, theaters might reopen but only on places where
-                      social distancing measures can be applied and limited
-                      capacity
-                    </Li>
-                    <Li>
-                      Allowed to travel to other cities inside the same province
-                    </Li>
+                    <Li>Trips in between provinces will be allowed</Li>
+                    <Li>Night clubs can reopen with limited spaces</Li>
+                    <Li>Casino&acute;s and gaming venues can reopen</Li>
+                    <Li>Bars, restaurants, terraces can serve more people</Li>
+                    <Li>Social gatherings up to 20 people</Li>
                   </Ul>
                 </Section>
               </Article>
