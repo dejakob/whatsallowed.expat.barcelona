@@ -208,7 +208,7 @@ function Index() {
             </GridCell>
           </Grid>
 
-          <H1 id="phase3">Phase 3: (date to be confirmed)</H1>
+          <H1 id="phase-3">Phase 3: (date to be confirmed)</H1>
 
           <Grid>
             <GridCell six>
