@@ -36,7 +36,7 @@ function Index() {
               "Phase 0",
               "Phase 1",
               <A href="#top">Phase 2</A>,
-              <A href="#top">End of the madness</A>,
+              <A href="#end">End of the madness</A>,
             ]}
             progress={70}
             spaceXL
@@ -214,7 +214,7 @@ function Index() {
             </GridCell>
           </Grid>
 
-          <H1 id="phase-3">New normality</H1>
+          <H1 id="end">New normality</H1>
 
           <Grid>
             <GridCell six>
