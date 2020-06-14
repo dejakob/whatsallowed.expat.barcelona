@@ -36,10 +36,9 @@ function Index() {
               "Phase 0",
               "Phase 1",
               <A href="#top">Phase 2</A>,
-              <A href="#phase-3">Phase 3</A>,
-              "Phase 4",
+              <A href="#top">End of the madness</A>,
             ]}
-            progress={50}
+            progress={70}
             spaceXL
           />
 
@@ -48,6 +47,13 @@ function Index() {
           <Grid reverse>
             <GridCell six>
               <Article spaceXL>
+                <H2 textStart>Update June 11th, 2020</H2>
+                <Section>
+                  <P spaceL>
+                    On June 21st, the whole country of Spain is supposed to end the state of alarrm and the deescalation plan.
+                    Face masks will still be required (when you cannot guarantee a 2m distance), but besides that, things should be back to normal.
+                  </P>
+                </Section>
                 <H2 textStart>Update June 8th, 2020</H2>
                 <Section>
                   <P spaceL>
@@ -208,26 +214,20 @@ function Index() {
             </GridCell>
           </Grid>
 
-          <H1 id="phase-3">Phase 3: (date to be confirmed)</H1>
+          <H1 id="phase-3">New normality</H1>
 
           <Grid>
             <GridCell six>
               <Article spaceXL>
                 <H2 textStart>When?</H2>
-                <Section>To be confirmed</Section>
+                <Section>June 21st (hopefully)</Section>
               </Article>
             </GridCell>
             <GridCell six>
               <Article spaceXL>
                 <H2 textStart>What will change?</H2>
                 <Section>
-                  <Ul spaceL>
-                    <Li>Trips in between provinces will be allowed</Li>
-                    <Li>Night clubs can reopen with limited spaces</Li>
-                    <Li>Casino&acute;s and gaming venues can reopen</Li>
-                    <Li>Bars, restaurants, terraces can serve more people</Li>
-                    <Li>Social gatherings up to 20 people</Li>
-                  </Ul>
+                  Everything should be back to normal, but face masks will still be required in situtations where you cannot leave enough distance.
                 </Section>
               </Article>
             </GridCell>
