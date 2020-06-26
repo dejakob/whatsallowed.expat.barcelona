@@ -8,15 +8,10 @@ const {
   H2,
   P,
   Section,
-  Dl,
-  Dt,
-  Dd,
   Notification,
   Stepper,
   Grid,
   GridCell,
-  Li,
-  Ul,
 } = require("react-alegrify-ui");
 
 const Head = require("../../components/lib/head");
@@ -35,199 +30,29 @@ function Index() {
             steps={[
               "Phase 0",
               "Phase 1",
-              <A href="#top">Phase 2</A>,
-              <A href="#end">End of the madness</A>,
+              "Phase 2",
+              "Phase 3",
+              "New normality",
             ]}
-            progress={70}
+            progress={100}
             spaceXL
           />
 
-          <H1>Current phase (2)</H1>
-
-          <Grid reverse>
-            <GridCell six>
-              <Article spaceXL>
-                <H2 textStart>Update June 11th, 2020</H2>
-                <Section>
-                  <P spaceL>
-                    On June 21st, the whole country of Spain is supposed to end the state of alarrm and the deescalation plan.
-                    Face masks will still be required (when you cannot guarantee a 2m distance), but besides that, things should be back to normal.
-                  </P>
-                </Section>
-                <H2 textStart>Update June 8th, 2020</H2>
-                <Section>
-                  <P spaceL>
-                    Barcelona is now entering phase 2.
-                  </P>
-                </Section>
-                <H2 textStart>Update June 6th, 2020</H2>
-                <Section>
-                  <P spaceL>
-                    Barcelona will most probably be able to move to phase two as
-                    of Monday June 8th.
-                  </P>
-                </Section>
-                <H2 textStart>Update May 28th, 2020</H2>
-                <Section>
-                  <P spaceL>
-                    As of Monday June 1st, you will be allowed to travel around
-                    the Barcelona metropolitan area.
-                  </P>
-                </Section>
-                <H2 textStart>Update May 22nd, 2020</H2>
-                <Section>
-                  <P spaceL>
-                    Health minister Salvador Illa confirmed that Barcelona will
-                    move to phase 1 on Monday May 25th.
-                  </P>
-                  <P spaceL>
-                    In this phase, some terraces can open for a limited amount
-                    of people and social gatherings are allowed up till ten
-                    people.
-                  </P>
-                </Section>
-                <H2 textStart>Update May 21st, 2020</H2>
-                <Section>
-                  <P spaceL>
-                    As of Thursday May 21st, face masks will be required when
-                    going outside and inside in public places. There are of
-                    course some exceptions if you cannot wear a face mask for
-                    health reasons or if you&acute;re doing intense sports such
-                    as running or if you can keep a 2m distance at all times.
-                  </P>
-                </Section>
-              </Article>
-            </GridCell>
-
-            <GridCell six>
-              <Article spaceXL>
-                <H2 textStart>Stores and restaurants</H2>
-                <Section>
-                  <Dl>
-                    <Dt>Can I go to the supermarket?</Dt>
-                    <Dd>Yes, you can, as well as to the pharmacy</Dd>
-                    <Dt>During what time can I go for sport?</Dt>
-                    <Dd>Anytime</Dd>
-                    <Dt>At what time can I go buy my groceries?</Dt>
-                    <Dd>Any time, as long as the store is open.</Dd>
-                    <Dt>Can I go to a restaurant?</Dt>
-                    <Dd>
-                      You can go to a restaurant to take away a meal as well as
-                      eat on the terrace of some restaurants
-                    </Dd>
-                    <Dt>Can I go to the bar?</Dt>
-                    <Dd>
-                      Yes, but you have to sit outside on the sidewalk or on a
-                      terrace
-                    </Dd>
-                    <Dt>Can I go buy clothes?</Dt>
-                    <Dd>Yes, as long as the store is open</Dd>
-                    <Dt>Are shopping malls open?</Dt>
-                    <Dd>
-                      Depends on the mall. They are allowed to open with
-                      restictions. Probably more malls will open over time.
-                    </Dd>
-                    <Dt>Can I visit an open air market</Dt>
-                    <Dd>There will be some adjustments, but you are allowed to visit an open air market</Dd>
-                  </Dl>
-                </Section>
-
-                <H2 textStart>Face masks</H2>
-                <Section>
-                  <Dl>
-                    <Dt>Do I have to wear a face mask?</Dt>
-                    <Dd>
-                      As of Thursday May 21st, you are required to wear a face
-                      mask when walking outside
-                    </Dd>
-                    <Dt>
-                      Do I need to wear a face mask when doing intense sport
-                      (e.g. running)?
-                    </Dt>
-                    <Dd>
-                      According to the Health minister not. This would be an
-                      exception where wearing a face mask is incompatible with
-                      carrying out activities.
-                      <br />
-                      However, it is always recommended to wear a face mask
-                    </Dd>
-                    <Dt>Where can I get a face mask?</Dt>
-                    <Dd>
-                      You can get one face mask for free when going to the
-                      pharmacy by showing your blue card of the public health
-                      insurance. Amazon is also selling face masks, but their
-                      delivery times can take up to a month.
-                    </Dd>
-                    <Dt>Do I need to wear a mask when I&acute;m alone?</Dt>
-                    <Dd>
-                      No. Masks are only required when you cannot preserve a
-                      distance of 1.5-2 meter between yourself and other people.
-                      However, it&acute;s better to always have a mask with you
-                      for when you cannot preserve this distance.
-                    </Dd>
-                    <Dt>
-                      Will I still need to wear masks when the state of alarm is
-                      over?
-                    </Dt>
-                    <Dd>
-                      Yes, and if you do not wear a mask when being closer to
-                      someone than 1.5-2m, you can be fined 100 euro.
-                    </Dd>
-                  </Dl>
-                </Section>
-
-                <H2 textStart>Sport</H2>
-                <Section>
-                  <Dl>
-                    <Dt>Can I go for a run?</Dt>
-                    <Dd>Yes, at any time you want</Dd>
-                    <Dt>How far can I walk?</Dt>
-                    <Dd>
-                      As far as you want, as long as you stay within your region
-                    </Dd>
-                    <Dt>Can I walk on the beach?</Dt>
-                    <Dd>Yes, but only during morning hours.</Dd>
-                  </Dl>
-                </Section>
-
-                <H2 textStart>Pets</H2>
-                <Section>
-                  <Dl>
-                    <Dt>Can I walk my dog?</Dt>
-                    <Dd>Yes, you can walk the dog at antime.</Dd>
-                  </Dl>
-                </Section>
-
-                <H2 textStart>Social</H2>
-                <Section>
-                  <Dl>
-                    <Dt>Can I meet with my friends?</Dt>
-                    <Dd>You are allowed to meet with up to 14 friends.</Dd>
-                    <Dt>Can I meet friends in close cities?</Dt>
-                    <Dd>
-                      This is allowed now, as long as you stay within the same
-                      region.
-                    </Dd>
-                  </Dl>
-                </Section>
-              </Article>
-            </GridCell>
-          </Grid>
-
-          <H1 id="end">New normality</H1>
+          <H1 id="end"> New normality</H1>
 
           <Grid>
             <GridCell six>
               <Article spaceXL>
-                <H2 textStart>When?</H2>
-                <Section>June 21st (hopefully)</Section>
+                <H2 textStart>Since when?</H2>
+                <Section>June 21st</Section>
               </Article>
             </GridCell>
             <GridCell six>
               <Article spaceXL>
-                <H2 textStart>What will change?</H2>
+                <H2 textStart>What is the current state?</H2>
                 <Section>
                   Everything should be back to normal, but face masks will still be required in situtations where you cannot leave enough distance.
+                  New quarantines can occur when numbers start to rise again...
                 </Section>
               </Article>
             </GridCell>
