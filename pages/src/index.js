@@ -9,7 +9,8 @@ const {
   P,
   Section,
   Notification,
-  Stepper,
+  Ul,
+  Li,
   Grid,
   GridCell,
 } = require("react-alegrify-ui");
@@ -26,33 +27,27 @@ function Index() {
         <Header />
 
         <Main spaceXL>
-          <Stepper
-            steps={[
-              "Phase 0",
-              "Phase 1",
-              "Phase 2",
-              "Phase 3",
-              "New normality",
-            ]}
-            progress={100}
-            spaceXL
-          />
-
-          <H1 id="end"> New normality</H1>
+          <H1 id="end">COVID-19 in summer</H1>
 
           <Grid>
             <GridCell six>
               <Article spaceXL>
-                <H2 textStart>Since when?</H2>
-                <Section>June 21st</Section>
+                <H2 textStart>Current status</H2>
+                <Section>
+                  <Ul>
+                    <Li>You are required to wear a mask when going outside or to any public place.</Li>
+                    <Li>Gyms, clubs and some other activities will probably close again</Li>
+                    <Li>Bars and restaurants can only allow limited capacity</Li>
+                  </Ul>
+                </Section>
               </Article>
             </GridCell>
             <GridCell six>
               <Article spaceXL>
-                <H2 textStart>What is the current state?</H2>
+                <H2 textStart>Update July 17th</H2>
                 <Section>
-                  Everything should be back to normal, but face masks will still be required in situtations where you cannot leave enough distance.
-                  New quarantines can occur when numbers start to rise again...
+                  The Catalan government <strong>recommends</strong> to stay inside again. <br />
+                  They will apply more restrictions due to recent increases on the number of infections.
                 </Section>
               </Article>
             </GridCell>
